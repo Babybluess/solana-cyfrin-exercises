@@ -32,6 +32,31 @@ fn test() {
     svm.set_account(oracle.pubkey(), oracle_account).unwrap();
 
     // Init
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     let init_ix = Instruction {
         program_id,
         accounts: vec![AccountMeta::new(oracle.pubkey(), false)],
